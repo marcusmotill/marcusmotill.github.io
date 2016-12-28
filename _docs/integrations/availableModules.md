@@ -9,5 +9,3 @@ order: 2
     - IMAP
     - Office 365
 - **integration-salesforce**: Provides integration to Salesforce by extending Nexd to understand the main and custom object types in salesforce such as but not limited to Contacts, Accounts, and Leads.  This Module also defines signals related to salesforce content.
-
-Next [Nexd Module Design](./moduleDesign.md)

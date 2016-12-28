@@ -23,6 +23,7 @@ social:
 # Build
 
 permalink: pretty
+markdown: kramdown
 
 gems:
   - jekyll-sitemap
