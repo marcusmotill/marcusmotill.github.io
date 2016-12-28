@@ -20,53 +20,53 @@ An integration type defines a `teamSchema` and and a `userSchema`.  These are ob
 
 Example:
 ```
-{
-    "salesforce": {
-        "teamSchema": {
-            "url": {
-                "type": "String",
-                "index": "not_analyzed",
-                "default": "https://na1.salesforce.com"
+    {
+        "salesforce": {
+            "teamSchema": {
+                "url": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "default": "https://na1.salesforce.com"
+                },
+                "loginUrl": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "default": "https://login.salesforce.com"
+                },
             },
-            "loginUrl": {
-                "type": "String",
-                "index": "not_analyzed",
-                "default": "https://login.salesforce.com"
-            },
-        },
-        "userSchema": {
-            "username": {
-                "type": "String",
-                "index": "not_analyzed",
-                "display": {
-                    "hidden": false
-                }
-            },
-            "password": {
-                "type": "String",
-                "index": "not_analyzed",
-                "encrypt": true,
-                "display": {
-                    "hidden": false
-                }
-            },
-            "securityCode": {
-                "type": "String",
-                "index": "not_analyzed",
-                "display": {
-                    "hidden": false
-                }
-            },
-            "lastSyncTimeStamp": {
-                "type": "String",
-                "index": "not_analyzed",
-                "display": {
-                    "hidden": true
+            "userSchema": {
+                "username": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "display": {
+                        "hidden": false
+                    }
+                },
+                "password": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "encrypt": true,
+                    "display": {
+                        "hidden": false
+                    }
+                },
+                "securityCode": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "display": {
+                        "hidden": false
+                    }
+                },
+                "lastSyncTimeStamp": {
+                    "type": "String",
+                    "index": "not_analyzed",
+                    "display": {
+                        "hidden": true
+                    }
                 }
             }
         }
     }
-}
 ```
 
 ### Content Types
