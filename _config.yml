@@ -72,4 +72,4 @@ types:
   - minor
   - major
   
-markdown: kramdown
+# markdown: kramdown
